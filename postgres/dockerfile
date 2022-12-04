@@ -1,0 +1,3 @@
+FROM toleg/postgres_mongo_fdw
+
+COPY init.sql /docker-entrypoint-initdb.d/
